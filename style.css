@@ -1,0 +1,218 @@
+.nav-link {
+	margin: 0 15px;
+}
+
+
+.box-fix {
+	position: relative;
+	top: 55px;
+}
+
+.bg-top {
+	width: 100%;
+	min-height: 600px;
+	background-image: url('images/bg.jpg');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	position: relative;
+
+
+}
+
+.fix-zindex{
+	position: relative;
+	z-index: 2;
+}
+
+.overlay {
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-color: rgba(40,40,40,0.2);
+}
+
+.texto-bg {
+	display: inline-block;
+	color: white;
+	padding: 140px 0;
+}
+
+.padding30 {
+	padding-right: 30px;
+}
+
+section.sobre {
+	padding: 30px 0;
+}
+
+section.chamada {
+	background-color: #3FA3C5;
+	padding: 8px 0;
+	color: white;
+}
+
+section.chamada h2 {
+	font-size: 36px;
+}
+
+.custom-title {
+	position: relative;
+}
+
+.custom-title h2 {
+	color: #888;
+	font-size: 25px;
+}
+
+.custom-title div {
+	position: absolute;
+	left: 0;
+	top: -5px;
+	width: 40px;
+	height: 4px;
+	background-color: #3FA3C5;
+	transition: 2s;
+}
+
+.custom-title:hover div.transition{
+	width: 50%;
+
+}
+
+.col-md-4:hover div.transition {
+	width: 50%;
+}
+
+
+
+section.diferenciais {
+	padding: 30px 0;
+	color: #646464;
+}
+
+section.diferenciais .col-md-4 {
+	padding: 0 30px;
+}
+
+section.diferenciais .row h2 {
+	padding: 10px;
+	border-bottom: 1px dotted black;
+
+}
+
+
+section.convite {
+	background-color: #3FA3C5;
+	padding: 15px 0;
+}
+
+section.convite form {
+	margin: 15px 0;
+}
+
+section.convite h2 {
+	font-size: 28px;
+	color: white;
+	margin: 15px 0;
+}
+
+section.convite input[type=email] {
+	width: calc(100% - 100px);
+	height: 40px;
+}
+
+section.convite button {
+	width: 100px;
+	height: 40px;
+	vertical-align: top;
+}
+
+section.contato {
+	padding: 30px 0;
+	background-color: rgba(225,225,225,1);
+}
+
+/* Footer */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section {
+    padding: 5px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#footer {
+    background: #3FA3C5 !important;
+}
+#footer h5{
+	padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#ffffff;
+}
+#footer ul.social li a:hover{
+	color:#eeeeee;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+
+	.janio {
+		text-align: center !important; 
+		margin-right: 0 auto !important;
+	}
+}
